@@ -12,7 +12,7 @@ export const config = {
   twitterCardType: 'summary_large_image',
   facebookApp: '342185219529773',
   facebookPage: '603289706669016',
-  appleAppName: 'Quran - by Quran.com - قرآن',
+  appleAppName: 'Quran - by Quraniclove.com - قرآن',
   appleAppId: '1118663303',
   appleAppUrl: 'https://apps.apple.com/us/app/quran-by-quran-com-qran/id1118663303',
   androidAppName: 'Quran for Android',

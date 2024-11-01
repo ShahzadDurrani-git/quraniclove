@@ -112,7 +112,7 @@ export const getMediaSessionMetaData = async (
     album: 'Quraniclove.com',
     artwork: [
       {
-        src: 'https://quran.com/images/logo/Logo@192x192.png',
+        src: 'https://quraniclove.netlify.app/images/logo/Logo@192x192.png',
         type: 'image/png',
         sizes: '192x192',
       },

@@ -253,7 +253,8 @@ const RamadanActivitiesPage: NextPage = (): JSX.Element => {
                 <div>
                   “Ramadan is not just a month of fasting for Muslims; it's also about the Quran's
                   revelation, a time of deep reflection & connection. 📖 Curious about its messages?
-                  Visit <InlineLink text="Quran.com/about-the-Quran" href="/about-the-quran" /> to
+                  Visit{' '}
+                  <InlineLink text="Quraniclove.com/about-the-Quran" href="/about-the-quran" /> to
                   find answers to key questions and tips on how to explore it.”
                 </div>
                 <br />

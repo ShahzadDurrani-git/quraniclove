@@ -1,6 +1,6 @@
 {
-  "name": "Quran.com",
-  "short_name": "Quran.com",
+  "name": "Quraniclove.com",
+  "short_name": "Quraniclove.com",
   "icons": [
     {
       "src": "/images/logo/Logo@192x192.png",
@@ -32,7 +32,7 @@
       "purpose": "maskable"
     }
   ],
-  "shortcuts" : [
+  "shortcuts": [
     {
       "name": "Surah Al-Mulk",
       "url": "/67",
