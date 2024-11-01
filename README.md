@@ -8,16 +8,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://quran.com">
+  <a href="https://app.quranic.com">
     <img src="public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">The Noble Quran</h1>
 
   <p align="center">
-    The official source code repository for Quran.com
+    The official source code repository for app.Quraniclove.com
     <br />
-    <a href="https://discord.gg/SpEeJ5bWEQ"><strong>Join Quran.com community »</strong></a>
+    <a href="https://discord.gg/SpEeJ5bWEQ"><strong>Join app.quraniclove.com community »</strong></a>
     <br />
     <br />
     <a href="https://quran.com">Visit Quraniclove.com</a>
@@ -36,7 +36,7 @@
 [![Issues][issues-shield]][issues-url] [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
 
-This project is the frontend for Quran.com. It is built on top of
+This project is the frontend for Quraniclove.com. It is built on top of
 [Next.js](https://nextjs.org/docs/getting-started), a popular framework that takes the trouble and
 setup of setting up an isomorphic react app. We deploy it on now.sh automatically with automatic
 generation of builds for PRs.
