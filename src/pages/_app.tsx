@@ -18,7 +18,7 @@ import OnboardingChecklist from '@/components/Onboarding/OnboardingChecklist';
 import { OnboardingProvider } from '@/components/Onboarding/OnboardingProvider';
 import SessionIncrementor from '@/components/SessionIncrementor';
 import ThirdPartyScripts from '@/components/ThirdPartyScripts/ThirdPartyScripts';
-import Footer from '@/dls/Footer/Footer';
+// import Footer from '@/dls/Footer/Footer';
 import ToastContainerProvider from '@/dls/Toast/ToastProvider';
 import ReduxProvider from '@/redux/Provider';
 import { API_HOST } from '@/utils/api';
