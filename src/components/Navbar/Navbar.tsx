@@ -7,16 +7,16 @@ import { useSelector, shallowEqual } from 'react-redux';
 import styles from './Navbar.module.scss';
 import NavbarBody from './NavbarBody';
 
-import Banner from '@/components/Banner/Banner';
+// import Banner from '@/components/Banner/Banner';
 import { useOnboarding } from '@/components/Onboarding/OnboardingProvider';
-import Button, { ButtonSize, ButtonType } from '@/dls/Button/Button';
+// import Button, { ButtonSize, ButtonType } from '@/dls/Button/Button';
 import { selectNavbar } from '@/redux/slices/navbar';
-import { getProductUpdatesUrl } from '@/utils/navigation';
+// import { getProductUpdatesUrl } from '@/utils/navigation';
 
 const Navbar = () => {
   const { isActive } = useOnboarding();
   const { isVisible: isNavbarVisible } = useSelector(selectNavbar, shallowEqual);
-  const { t } = useTranslation('common');
+  // const { t } = useTranslation('common');
   const showNavbar = isNavbarVisible || isActive;
 
   return (
