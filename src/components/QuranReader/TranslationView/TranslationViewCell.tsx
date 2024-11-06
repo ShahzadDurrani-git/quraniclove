@@ -16,9 +16,9 @@ import TranslationText from './TranslationText';
 import styles from './TranslationViewCell.module.scss';
 
 import { useOnboarding } from '@/components/Onboarding/OnboardingProvider';
-import QuranReflectButton from '@/components/QuranReader/QuranReflectButton';
+// import QuranReflectButton from '@/components/QuranReader/QuranReflectButton';
 import TafsirButton from '@/components/QuranReader/TafsirButton';
-import VerseNotes from '@/components/Verse/Notes';
+// import VerseNotes from '@/components/Verse/Notes';
 import OverflowVerseActionsMenu from '@/components/Verse/OverflowVerseActionsMenu';
 import PlayVerseAudioButton from '@/components/Verse/PlayVerseAudioButton';
 import VerseLink from '@/components/Verse/VerseLink';
@@ -72,6 +72,10 @@ const TranslationViewCell: React.FC<TranslationViewCellProps> = ({
       scrollToSelectedItem();
     }
   }, [isHighlighted, scrollToSelectedItem, enableAutoScrolling, startingVerse, verseIndex]);
+
+  useEffect(() => {
+    if (hasNotes) console.log('hasNotes :>> ', hasNotes);
+  }, [hasNotes]);
 
   return (
     <div ref={selectedItemRef}>

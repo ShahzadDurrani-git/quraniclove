@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 
-import useTranslation from 'next-translate/useTranslation';
+// import useTranslation from 'next-translate/useTranslation';
 
 import BookmarkAction from '../BookmarkAction';
-import NotesAction from '../Notes/NotesAction';
+// import NotesAction from '../Notes/NotesAction';
 import SaveToCollectionAction from '../SaveToCollectionAction';
 import VerseActionRepeatAudio from '../VerseActionRepeatAudio';
 
-import styles from './OverflowVerseActionsMenuBody.module.scss';
+// import styles from './OverflowVerseActionsMenuBody.module.scss';
 import ShareVerseActionsMenu, { VerseActionsOverflowMenu } from './ShareVerseActionsMenu';
 
 import WordByWordVerseAction from '@/components/QuranReader/ReadingView/WordByWordVerseAction';
-import NewLabel from '@/dls/Badge/NewLabel';
-import IconContainer, { IconSize } from '@/dls/IconContainer/IconContainer';
-import PopoverMenu from '@/dls/PopoverMenu/PopoverMenu';
-import ChevronRightIcon from '@/icons/chevron-right.svg';
-import ShareIcon from '@/icons/share.svg';
+// import NewLabel from '@/dls/Badge/NewLabel';
+// import IconContainer, { IconSize } from '@/dls/IconContainer/IconContainer';
+// import PopoverMenu from '@/dls/PopoverMenu/PopoverMenu';
+// import ChevronRightIcon from '@/icons/chevron-right.svg';
+// import ShareIcon from '@/icons/share.svg';
 import { isLoggedIn } from '@/utils/auth/login';
-import { logButtonClick } from '@/utils/eventLogger';
+// import { logButtonClick } from '@/utils/eventLogger';
 import Verse from 'types/Verse';
 
 interface Props {
@@ -33,7 +33,7 @@ const OverflowVerseActionsMenuBody: React.FC<Props> = ({
   onActionTriggered,
   bookmarksRangeUrl,
 }) => {
-  const { t } = useTranslation('common');
+  // const { t } = useTranslation('common');
   const [selectedMenu, setSelectedMenu] = useState<VerseActionsOverflowMenu>(
     VerseActionsOverflowMenu.Main,
   );

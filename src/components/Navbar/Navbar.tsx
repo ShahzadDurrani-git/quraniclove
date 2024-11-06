@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classNames from 'classnames';
-import useTranslation from 'next-translate/useTranslation';
+// import useTranslation from 'next-translate/useTranslation';
 import { useSelector, shallowEqual } from 'react-redux';
 
 import styles from './Navbar.module.scss';

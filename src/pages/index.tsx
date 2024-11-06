@@ -1,7 +1,7 @@
 /* eslint-disable react/no-multi-comp */
 import React from 'react';
 
-import classNames from 'classnames';
+// import classNames from 'classnames';
 import { NextPage, GetStaticProps } from 'next';
 import Head from 'next/head';
 import useTranslation from 'next-translate/useTranslation';
@@ -10,10 +10,10 @@ import styles from './index.module.scss';
 
 import ChapterAndJuzListWrapper from '@/components/chapters/ChapterAndJuzList';
 import HomePageHero from '@/components/HomePage/HomePageHero';
-import QuranGrowthJourneySection from '@/components/HomePage/QuranGrowthJourneySection';
-import RamadanActivitiesSection from '@/components/HomePage/RamadanActivitiesSection';
+// import QuranGrowthJourneySection from '@/components/HomePage/QuranGrowthJourneySection';
+// import RamadanActivitiesSection from '@/components/HomePage/RamadanActivitiesSection';
 import NextSeoWrapper from '@/components/NextSeoWrapper';
-import BookmarksAndCollectionsSection from '@/components/Verses/BookmarksAndCollectionsSection';
+// import BookmarksAndCollectionsSection from '@/components/Verses/BookmarksAndCollectionsSection';
 import { getAllChaptersData } from '@/utils/chapter';
 import { getLanguageAlternates } from '@/utils/locale';
 import { getCanonicalUrl } from '@/utils/navigation';
