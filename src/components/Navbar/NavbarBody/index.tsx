@@ -56,7 +56,7 @@ const NavbarBody: React.FC = () => {
       <div className={styles.centerVertically}>
         <div className={styles.leftCTA}>
           <>
-            <Button
+            {/* <Button
               tooltip={t('menu')}
               variant={ButtonVariant.Ghost}
               shape={ButtonShape.Circle}
@@ -64,8 +64,8 @@ const NavbarBody: React.FC = () => {
               ariaLabel={t('aria.nav-drawer-open')}
             >
               <IconMenu />
-            </Button>
-            <NavigationDrawer />
+            </Button> */}
+            {/* <NavigationDrawer /> */}
           </>
           <NavbarLogoWrapper />
         </div>
@@ -73,7 +73,7 @@ const NavbarBody: React.FC = () => {
       <div className={styles.centerVertically}>
         <div className={styles.rightCTA}>
           <>
-            <ProfileAvatarButton />
+            {/* <ProfileAvatarButton /> */}
             <LanguageSelector />
             <Button
               tooltip={t('settings.title')}

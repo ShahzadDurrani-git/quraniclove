@@ -92,18 +92,18 @@ const TranslationViewCell: React.FC<TranslationViewCellProps> = ({
                 bookmarksRangeUrl={bookmarksRangeUrl}
               />
             </div>
-            <div className={styles.actionItem}>
+            {/* <div className={styles.actionItem}>
               <VerseNotes verseKey={verse.verseKey} isTranslationView hasNotes={hasNotes} />
-            </div>
+            </div> */}
             <div className={classNames(styles.actionItem, styles.priorityAction)}>
               <PlayVerseAudioButton verseKey={verse.verseKey} />
             </div>
             <div className={classNames(styles.actionItem)}>
               <TafsirButton verseKey={verse.verseKey} />
             </div>
-            <div className={classNames(styles.actionItem)}>
+            {/* <div className={classNames(styles.actionItem)}>
               <QuranReflectButton verseKey={verse.verseKey} />
-            </div>
+            </div> */}
           </div>
           <div className={styles.actionContainerRight}>
             <div className={styles.actionItem}>

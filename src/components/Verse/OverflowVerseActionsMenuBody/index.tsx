@@ -37,14 +37,14 @@ const OverflowVerseActionsMenuBody: React.FC<Props> = ({
   const [selectedMenu, setSelectedMenu] = useState<VerseActionsOverflowMenu>(
     VerseActionsOverflowMenu.Main,
   );
-  const onShareItemClicked = () => {
-    logButtonClick(`share_verse_action`);
-    setSelectedMenu(VerseActionsOverflowMenu.Share);
-  };
+  // const onShareItemClicked = () => {
+  //   logButtonClick(`share_verse_action`);
+  //   setSelectedMenu(VerseActionsOverflowMenu.Share);
+  // };
 
   return selectedMenu === VerseActionsOverflowMenu.Main ? (
     <div>
-      {!isTranslationView && <NotesAction verse={verse} />}
+      {/* {!isTranslationView && <NotesAction verse={verse} />} */}
       {!isTranslationView && (
         <WordByWordVerseAction verse={verse} onActionTriggered={onActionTriggered} />
       )}
@@ -61,7 +61,7 @@ const OverflowVerseActionsMenuBody: React.FC<Props> = ({
           isTranslationView={isTranslationView}
         />
       )}
-      <PopoverMenu.Item icon={<ShareIcon />} onClick={onShareItemClicked}>
+      {/* <PopoverMenu.Item icon={<ShareIcon />} onClick={onShareItemClicked}>
         <div className={styles.menuWithNestedItems}>
           {t('share')}
           <div className={styles.newLabelContainer}>
@@ -74,7 +74,7 @@ const OverflowVerseActionsMenuBody: React.FC<Props> = ({
             />
           </div>
         </div>
-      </PopoverMenu.Item>
+      </PopoverMenu.Item> */}
       <VerseActionRepeatAudio isTranslationView={isTranslationView} verseKey={verse.verseKey} />
     </div>
   ) : (

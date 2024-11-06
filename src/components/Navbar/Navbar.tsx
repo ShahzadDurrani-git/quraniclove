@@ -23,7 +23,7 @@ const Navbar = () => {
     <>
       <div className={styles.emptySpacePlaceholder} />
       <nav className={classNames(styles.container, { [styles.hiddenNav]: !showNavbar })}>
-        <Banner
+        {/* <Banner
           shouldShowPrefixIcon={false}
           text={`🎉 ${t('exciting-updates')}!`}
           ctaButton={
@@ -31,7 +31,7 @@ const Navbar = () => {
               {t('see-new')}
             </Button>
           }
-        />
+        /> */}
         <NavbarBody />
       </nav>
     </>

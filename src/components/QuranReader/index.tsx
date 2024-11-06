@@ -67,7 +67,7 @@ const QuranReader = ({
         </div>
       </div>
       <SidebarNavigation />
-      <Notes />
+      {/* <Notes /> */}
     </>
   );
 };

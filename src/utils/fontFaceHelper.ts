@@ -86,7 +86,7 @@ const getFontPath = (
  * @returns {QCFFontVersion}
  */
 export const quranFontToVersion = (quranFont: QuranFont): QCFFontVersion =>
-  quranFont.replace('code_', '').replace('tajweed_', '') as QCFFontVersion;
+  quranFont?.replace('code_', '').replace('tajweed_', '') as QCFFontVersion;
 
 /**
  * A function that will return the value of the font-face of QCF's font V1, V2 and V4.
